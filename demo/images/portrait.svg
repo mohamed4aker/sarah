@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="رسمة توضيحية لعروس">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#ffe3ec"/>
+      <stop offset="55%" stop-color="#ffd0e0"/>
+      <stop offset="100%" stop-color="#f7dcc4"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0%"   stop-color="#5a3242"/>
+      <stop offset="55%"  stop-color="#41232f"/>
+      <stop offset="100%" stop-color="#2e1721"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0.3" y1="0" x2="0.8" y2="1">
+      <stop offset="0%"   stop-color="#fbdcc6"/>
+      <stop offset="100%" stop-color="#f0c3a6"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%"   stop-color="#3a2029"/>
+      <stop offset="100%" stop-color="#1f1017"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="400" cy="360" r="300" fill="url(#glow)"/>
+
+  <!-- شعر خلفي -->
+  <path d="M400 208
+           C 302 208, 262 300, 266 392
+           C 270 492, 248 574, 224 666
+           C 278 688, 322 698, 400 698
+           C 478 698, 522 688, 576 666
+           C 552 574, 530 492, 534 392
+           C 538 300, 498 208, 400 208 Z"
+        fill="url(#hair)"/>
+  <path d="M330 250 C 300 300, 292 380, 298 470 C 302 540, 292 610, 280 664
+           L 262 660 C 276 600, 284 530, 280 462 C 274 372, 288 292, 316 244 Z"
+        fill="#6b3d4f" opacity="0.35"/>
+
+  <!-- كتف وفستان -->
+  <path d="M150 800 C 156 664, 262 596, 400 596 C 538 596, 644 664, 650 800 Z"
+        fill="url(#dress)"/>
+
+  <!-- رقبة -->
+  <path d="M348 470 L452 470 L452 566 C 452 596, 424 612, 400 612 C 376 612, 348 596, 348 566 Z"
+        fill="#eeb99a"/>
+
+  <!-- وجه -->
+  <ellipse cx="400" cy="368" rx="112" ry="140" fill="url(#skin)"/>
+
+  <!-- خصلات جانبية قدام -->
+  <path d="M312 250 C 280 302, 274 404, 280 500 C 285 566, 280 618, 270 668
+           L 228 662 C 244 570, 246 456, 256 376 C 264 306, 284 250, 312 250 Z"
+        fill="url(#hair)"/>
+  <path d="M488 250 C 520 302, 526 404, 520 500 C 515 566, 520 618, 530 668
+           L 572 662 C 556 570, 554 456, 544 376 C 536 306, 516 250, 488 250 Z"
+        fill="url(#hair)"/>
+
+  <!-- غرة -->
+  <path d="M400 232 C 336 232, 296 272, 288 340
+           C 310 300, 346 280, 380 288 C 393 291, 398 282, 400 266 Z"
+        fill="url(#hair)"/>
+  <path d="M400 232 C 464 232, 504 272, 512 340
+           C 490 300, 454 280, 420 288 C 407 291, 402 282, 400 266 Z"
+        fill="url(#hair)"/>
+
+  <!-- حواجب -->
+  <path d="M340 348 C 356 338, 380 338, 394 346" stroke="#3a2029" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M406 346 C 420 338, 444 338, 460 348" stroke="#3a2029" stroke-width="9" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+  <!-- عيون -->
+  <path d="M338 392 C 352 378, 380 378, 394 392 C 380 404, 352 404, 338 392 Z" fill="#fffdfb"/>
+  <path d="M406 392 C 420 378, 448 378, 462 392 C 448 404, 420 404, 406 392 Z" fill="#fffdfb"/>
+  <circle cx="366" cy="391" r="11" fill="#4a3226"/>
+  <circle cx="434" cy="391" r="11" fill="#4a3226"/>
+  <circle cx="369" cy="387" r="4" fill="#ffffff"/>
+  <circle cx="437" cy="387" r="4" fill="#ffffff"/>
+  <path d="M336 390 C 352 374, 382 374, 396 390" stroke="#2e1721" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M404 390 C 418 374, 448 374, 464 390" stroke="#2e1721" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- أنف -->
+  <path d="M398 408 C 392 428, 388 440, 400 446" stroke="#dda587" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- ابتسامة -->
+  <path d="M362 470 C 382 488, 418 488, 438 470 C 420 500, 380 500, 362 470 Z" fill="#c9536f"/>
+  <path d="M362 470 C 382 478, 418 478, 438 470" stroke="#a8285c" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- خدود -->
+  <ellipse cx="326" cy="434" rx="24" ry="15" fill="#f3a3a0" opacity="0.4"/>
+  <ellipse cx="474" cy="434" rx="24" ry="15" fill="#f3a3a0" opacity="0.4"/>
+
+  <!-- بروش دهبي على الفستان -->
+  <circle cx="400" cy="700" r="17" fill="#d9a441"/>
+  <circle cx="400" cy="700" r="8"  fill="#f3e3bd"/>
+  <circle cx="368" cy="716" r="8"  fill="#d9a441" opacity="0.75"/>
+  <circle cx="432" cy="716" r="8"  fill="#d9a441" opacity="0.75"/>
+</svg>

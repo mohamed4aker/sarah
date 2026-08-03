@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>نور ❤️ ليكِ وحدك</title>
+  <meta name="description" content="صفحة رومانسية لنور" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>" />
+</head>
+<body>
+
+  <!-- خلفية القلوب المتطايرة -->
+  <div class="hearts-bg" id="heartsBg" aria-hidden="true"></div>
+  <div class="petals" id="petals" aria-hidden="true"></div>
+
+  <!-- زرار الموسيقى -->
+  <button class="music-btn" id="musicBtn" title="شغّل الموسيقى" aria-label="تشغيل الموسيقى">
+    <span class="music-icon">♪</span>
+  </button>
+
+  <!-- ====== شاشة الافتتاح ====== -->
+  <section class="intro" id="intro">
+    <div class="envelope-wrap">
+      <div class="envelope" id="envelope">
+        <div class="env-back"></div>
+        <div class="env-letter">
+          <p class="env-to">إلى</p>
+          <h2 class="env-name">نور</h2>
+          <p class="env-sub">في حاجة عايز أقولهالك…</p>
+        </div>
+        <div class="env-front"></div>
+        <div class="env-flap"></div>
+        <div class="env-seal">❤</div>
+      </div>
+      <p class="tap-hint">اضغطي على الجواب ✨</p>
+    </div>
+  </section>
+
+  <!-- ====== المحتوى ====== -->
+  <main class="content" id="content" hidden>
+
+    <!-- الهيرو -->
+    <header class="hero">
+      <div class="hero-glow"></div>
+      <div class="frame">
+        <div class="frame-ring"></div>
+        <div class="photo" id="photoBox">
+          <img src="images/portrait.svg" alt="نور" id="sarahPhoto" onerror="this.classList.add('missing')" />
+          <div class="photo-fallback"><span>ن</span></div>
+        </div>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="line">يا أجمل</span>
+        <span class="name-big">نور</span>
+        <span class="line">في الدنيا كلها</span>
+      </h1>
+
+      <p class="hero-quote">« ونور العين… يا نور العين »</p>
+      <p class="hero-sub">اسكرولي كمان شوية 👇</p>
+      <div class="scroll-arrow">❤</div>
+    </header>
+
+    <!-- كلام عمرو دياب -->
+    <section class="section lyrics-section reveal">
+      <h2 class="sec-title">كلام قاله عمرو دياب… وكأنه كان بيتكلم عنك</h2>
+      <div class="lyrics">
+        <blockquote class="lyric" style="--i:0">
+          <span class="q">“</span>
+          <p>حبيبي يا نور العين… يا ساكن خيالي</p>
+          <cite>نور العين</cite>
+        </blockquote>
+        <blockquote class="lyric" style="--i:1">
+          <span class="q">“</span>
+          <p>تملي معاك… ولو حتى بعيد عني في قلبي هواك</p>
+          <cite>تملي معاك</cite>
+        </blockquote>
+        <blockquote class="lyric" style="--i:2">
+          <span class="q">“</span>
+          <p>وحياتي عندك… ده أنا عمري ابتدا من ساعة ما شفتك</p>
+          <cite>وحياتي عندك</cite>
+        </blockquote>
+        <blockquote class="lyric" style="--i:3">
+          <span class="q">“</span>
+          <p>الليلة دي… ليلة عمري وأحلى ليلة</p>
+          <cite>الليلة</cite>
+        </blockquote>
+        <blockquote class="lyric" style="--i:4">
+          <span class="q">“</span>
+          <p>بحبك أنا… وكل ما تسألني بقول بحبك أنا</p>
+          <cite>بحبك أنا</cite>
+        </blockquote>
+        <blockquote class="lyric" style="--i:5">
+          <span class="q">“</span>
+          <p>أهواك… وأتمنى لو أنساك</p>
+          <cite>أهواك</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- أسباب -->
+    <section class="section reasons-section reveal">
+      <h2 class="sec-title">ليه إنتِ بالذات؟</h2>
+      <div class="reasons">
+        <article class="reason" style="--i:0"><span class="emo">🌙</span><h3>ضحكتك</h3><p>لما بتضحكي، اليوم كله بيبقى حلو من غير سبب.</p></article>
+        <article class="reason" style="--i:1"><span class="emo">☕</span><h3>حواركِ</h3><p>معاكِ الكلام مش بيخلص، والسكوت كمان مريح.</p></article>
+        <article class="reason" style="--i:2"><span class="emo">🌹</span><h3>قلبك</h3><p>طيبتك بتخلي الناس أحسن، وأنا واحد منهم.</p></article>
+        <article class="reason" style="--i:3"><span class="emo">✨</span><h3>طموحك</h3><p>شايفك بتكبري كل يوم، ونفسي أكون واقف جنبك.</p></article>
+        <article class="reason" style="--i:4"><span class="emo">🕊️</span><h3>أمانك</h3><p>معاكِ حاسس إني في البيت، حتى لو إحنا في أي مكان.</p></article>
+        <article class="reason" style="--i:5"><span class="emo">💫</span><h3>ببساطة… إنتِ</h3><p>مفيش سبب واحد، إنتِ كلك السبب.</p></article>
+      </div>
+    </section>
+
+    <!-- عداد -->
+    <section class="section counter-section reveal">
+      <h2 class="sec-title">من ساعة ما عرفتك</h2>
+      <div class="counters">
+        <div class="counter"><b id="cDays">0</b><span>يوم</span></div>
+        <div class="counter"><b id="cHours">0</b><span>ساعة</span></div>
+        <div class="counter"><b id="cMins">0</b><span>دقيقة</span></div>
+        <div class="counter"><b id="cSecs">0</b><span>ثانية</span></div>
+      </div>
+      <p class="counter-note">وكل ثانية فيهم كنت بحبك أكتر ❤️</p>
+    </section>
+
+    <!-- السؤال -->
+    <section class="section ask-section reveal" id="askSection">
+      <div class="ring">💍</div>
+      <h2 class="ask-title">نور… تتجوزيني؟</h2>
+      <p class="ask-sub">مش محتاج رد دلوقتي… بس أنا متأكد من إجابتي</p>
+      <div class="btns">
+        <button class="btn yes" id="yesBtn">أيوة ❤️</button>
+        <button class="btn no" id="noBtn">لأ 😅</button>
+      </div>
+      <p class="no-msg" id="noMsg"></p>
+    </section>
+
+    <footer class="footer">
+      <p>اتعمل بكل حب ❤️ لـ نور</p>
+    </footer>
+  </main>
+
+  <!-- ====== شاشة الاحتفال ====== -->
+  <div class="celebrate" id="celebrate" hidden>
+    <canvas id="confetti"></canvas>
+    <div class="celebrate-card">
+      <div class="big-ring">💍</div>
+      <h2>يااااه! 🎉</h2>
+      <p class="cel-main">قولتي أيوة!</p>
+      <p class="cel-sub">« الليلة دي… ليلة عمري وأحلى ليلة »</p>
+      <p class="cel-sub2">أوعدك أخليكِ أسعد واحدة في الدنيا 💍❤️</p>
+      <button class="btn yes small" id="againBtn">إعادة 🔁</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
